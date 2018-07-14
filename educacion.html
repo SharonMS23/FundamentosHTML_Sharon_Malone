@@ -1,0 +1,106 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="author" content="Sharon Malone">
+		<meta name="viewport" content="width=device-width,user-scalable=no">
+		<meta name="description" content="Proyecto Final">
+		<title>Proyecto Final</title>
+	</head>
+	<body>
+		<header>
+			<svg style="border: 2px solid black" width="100px" height="100px">
+				<polyline points="90,10 10,10 10,50 90,50 90,90 10,90" fill="white" stroke="yellow" stroke-width="2"/>
+			</svg>
+			<svg style="border: 2px solid black" width="100px" height="100px">
+				<polyline points="10,10 10,90 90,90" fill="white" stroke="yellow" stroke-width="2"/>
+			</svg>
+			<svg style="border: 2px solid black" width="100px" height="100px">
+				<polyline points="10,90 10,10 50,50 90,10 90,90" fill="white" stroke="yellow" stroke-width="2"/>
+			</svg>
+			<svg style="border: 2px solid black" width="100px" height="100px">
+				<polyline points="90,10 10,10 10,50 90,50 90,90 10,90" fill="white" stroke="yellow" stroke-width="2"/>
+			</svg>			
+			<h1>Resumen Curricular</h1>
+		</header>
+		<p>
+			<h2>Apellidos y Nombres:</h2>
+			<h3>Malone Salas Sharon Laura </h3>
+		</p>
+		<p>
+			<h2>Fecha de Nacimiento</h2>
+			<h3>23/08/1992</h3>
+		</p>
+		<p>
+			<h2>Lugar de Nacimiento</h2>
+			<h3>Lima - Perú</h3>
+		</p>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educacion</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+		<h2>Educación</h2>
+		<table border="1" cellspacing="0" cellpadding="10">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2017</td>
+					<td>USMP</td>
+					<td>LIMA -PERU</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>USMP</td>
+					<td>LIMA - PERU</td>
+					<td>SI</td>
+				</tr>
+				<tr>
+					<td>2018</td>
+					<td>NEXT UNIVERSITY</td>
+					<td>LIMA - PERU</td>
+					<td>NO</td>
+				</tr>
+			</tbody>
+			<tfoot></tfoot>
+		</table>
+		<form>
+			<h2>Agregar Estudios</h2>
+			<p>
+				<label>Año</label>
+				<select>
+					<option>2018</option>
+					<option>2017</option>
+					<option>2016</option>
+					<option>2015</option>
+					<option>2014</option>
+				</select>
+			</p>
+			<p>
+				<label>Institucion</label>
+				<input type="text" name="institucion" id="institucion" required>
+			</p>
+			<p>
+				<label>Lugar</label>
+				<input type="text" name="lugar" id="lugar" maxlength="100">
+			</p>
+			<p>
+				<input type="submit" name="enviar" value="Enviar">
+			</p>
+		</form>
+		<footer>
+			<p><strong>Correo:</strong> sharon_malone@hotmail.com </p>
+			<p><strong>Celular:</strong> 987654321 </p>
+			<p><strong>Redes Sociales:</strong> sharonmalone@twiter.com</p>
+			<p><strong>Direccion:</strong> Peru </p>
+		</footer>
+	</body>
+</html>
